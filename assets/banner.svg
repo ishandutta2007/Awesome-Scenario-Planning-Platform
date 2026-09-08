@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyan-violet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="bullish-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <linearGradient id="bearish-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb7185" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1" stroke-opacity="0.4" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.05); }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -100; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    .grid-bg { fill: url(#grid); }
+    .glow-line {
+      stroke-dasharray: 12, 6;
+      animation: dash 5s linear infinite;
+    }
+    .floating-card {
+      animation: float 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Base Card -->
+  <rect width="1200" height="350" rx="16" fill="url(#bg-grad)" />
+  <rect width="1200" height="350" rx="16" fill="url(#grid)" />
+
+  <!-- Decorative Glow Orbs -->
+  <circle cx="150" cy="80" r="180" fill="#38bdf8" opacity="0.08" filter="url(#glow)" />
+  <circle cx="1050" cy="270" r="200" fill="#c084fc" opacity="0.08" filter="url(#glow)" />
+
+  <!-- Left Content Block -->
+  <g transform="translate(60, 65)">
+    <!-- Badge -->
+    <rect width="210" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="18" cy="16" r="5" fill="#38bdf8" />
+    <text x="32" y="21" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="0.5">AWESOME ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="0" y="85" fill="url(#cyan-violet)" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">Scenario Planning Platform</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="125" fill="#e2e8f0" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="500">Connected FP&amp;A • Multi-Dimensional Modeling • What-If Forecasting</text>
+
+    <!-- Stat Pill Tags -->
+    <g transform="translate(0, 155)">
+      <rect width="140" height="36" rx="8" fill="#1e293b" opacity="0.9" stroke="#38bdf8" stroke-width="1" />
+      <text x="70" y="23" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">⚡ SaaS Platforms</text>
+
+      <rect x="155" width="160" height="36" rx="8" fill="#1e293b" opacity="0.9" stroke="#c084fc" stroke-width="1" />
+      <text x="235" y="23" fill="#c084fc" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">🔓 Open-Source Repos</text>
+
+      <rect x="330" width="160" height="36" rx="8" fill="#1e293b" opacity="0.9" stroke="#34d399" stroke-width="1" />
+      <text x="410" y="23" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">📈 What-If Models</text>
+    </g>
+  </g>
+
+  <!-- Right Visual Graphics: Multi-Scenario Chart -->
+  <g transform="translate(680, 50)" class="floating-card">
+    <!-- Chart Box Container -->
+    <rect width="460" height="250" rx="14" fill="#0f172a" opacity="0.85" stroke="#334155" stroke-width="1.5" />
+    
+    <!-- Chart Header -->
+    <text x="25" y="38" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="700">Multi-Scenario Financial Forecast</text>
+    <text x="360" y="38" fill="#64748b" font-family="sans-serif" font-size="12" text-anchor="end">FY26-FY30</text>
+
+    <!-- Grid Lines inside Chart -->
+    <line x1="30" y1="70" x2="430" y2="70" stroke="#1e293b" stroke-width="1" />
+    <line x1="30" y1="120" x2="430" y2="120" stroke="#1e293b" stroke-width="1" />
+    <line x1="30" y1="170" x2="430" y2="170" stroke="#1e293b" stroke-width="1" />
+    <line x1="30" y1="220" x2="430" y2="220" stroke="#334155" stroke-width="1" />
+
+    <!-- Scenario Curves -->
+    <!-- Bullish Case (Green) -->
+    <path d="M 40 180 Q 150 160, 250 100 T 420 55" fill="none" stroke="url(#bullish-grad)" stroke-width="3.5" filter="url(#glow)" />
+    <!-- Baseline Case (Cyan/Violet) -->
+    <path d="M 40 180 Q 150 170, 250 135 T 420 105" fill="none" stroke="url(#cyan-violet)" stroke-width="3" class="glow-line" />
+    <!-- Bearish Case (Rose) -->
+    <path d="M 40 180 Q 150 185, 250 175 T 420 185" fill="none" stroke="url(#bearish-grad)" stroke-width="2.5" stroke-dasharray="4,4" />
+
+    <!-- Scenario End Points & Labels -->
+    <circle cx="420" cy="55" r="5" fill="#34d399" />
+    <text x="428" y="52" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="700">Bullish (+42%)</text>
+
+    <circle cx="420" cy="105" r="5" fill="#38bdf8" />
+    <text x="428" y="108" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="700">Base (+24%)</text>
+
+    <circle cx="420" cy="185" r="5" fill="#fb7185" />
+    <text x="428" y="188" fill="#fb7185" font-family="sans-serif" font-size="11" font-weight="700">Bearish (-5%)</text>
+
+    <!-- Interactive Data Node -->
+    <circle cx="250" cy="135" r="6" fill="#818cf8" stroke="#ffffff" stroke-width="2" />
+    <rect x="200" y="85" width="100" height="35" rx="6" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+    <text x="250" y="100" fill="#f8fafc" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">What-If Pivot</text>
+    <text x="250" y="113" fill="#38bdf8" font-family="sans-serif" font-size="10" text-anchor="middle">$14.2M ARR</text>
+  </g>
+</svg>
