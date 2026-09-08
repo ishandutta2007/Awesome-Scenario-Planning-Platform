@@ -42,59 +42,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Pigment](https://www.pigment.com/)**  
-
-  Modern, AI-native connected planning platform popular with mid-market and growth companies for flexible modeling, rapid scenario building, and cross-functional collaboration.
-
-
-
-- **[Anaplan](https://www.anaplan.com/)**  
-
-  Enterprise standard for connected planning at scale, supporting complex multi-dimensional models across finance, sales, supply chain, and workforce.
-
-
-
-- **[Planful](https://planful.com/)**  
-
-  Continuous planning and FP&A platform strong in mid-market budgeting, forecasting, consolidation, and structured planning processes.
-
-
-
-- **[Vena](https://www.venasolutions.com/)**  
-
-  Excel-native planning and performance management platform that brings governance, collaboration, and scenario capabilities to familiar spreadsheet workflows.
-
-
-
-- **[Cube](https://www.cubesoftware.com/)**  
-
-  Spreadsheet-native FP&A platform focused on consolidating data, enabling scenario analysis, and keeping finance teams in Excel/Google Sheets while adding control.
-
-
-
-- **[Datarails](https://www.datarails.com/)**  
-
-  Excel-based FP&A and reporting solution that automates data collection and supports scenario and variance analysis for finance teams.
-
-
-
-- **[Abacum, Mosaic](https://www.abacum.io/)**  
-
-  FP&A platforms tailored to SaaS and high-growth companies, emphasizing metrics, board reporting, and agile planning.
-
-
-
-- **[Prophix, Centage](https://www.prophix.com/)**  
-
-  Corporate performance management and budgeting/forecasting platforms serving mid-market organizations with structured planning and automation.
-
-
-
-- **[Other FP&A & planning platforms](https://www.anaplan.com/)**  
-
-  Additional solutions including Workday Adaptive Planning, OneStream, and specialized planning tools for finance and operations.
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limit |
+| :--- | :--- | :--- | :--- |
+| **[Pigment](https://www.pigment.com/)** | Modern, AI-native connected planning platform popular with mid-market and growth companies for flexible modeling, rapid scenario building, and cross-functional collaboration. | Starting at ~$30,000 / year | No free tier; No free trial (0 days limit, demo request only) |
+| **[Anaplan](https://www.anaplan.com/)** | Enterprise standard for connected planning at scale, supporting complex multi-dimensional models across finance, sales, supply chain, and workforce. | Starting at ~$30,000 / year | No commercial free tier or trial (0 days limit; 90-day free trial workspace for Talent Builder learners) |
+| **[Planful](https://planful.com/)** | Continuous planning and FP&A platform strong in mid-market budgeting, forecasting, consolidation, and structured planning processes. | Starting at ~$25,000 / year | No free tier; No free trial (0 days limit, sales demo on request) |
+| **[Vena](https://www.venasolutions.com/)** | Excel-native planning and performance management platform that brings governance, collaboration, and scenario capabilities to familiar spreadsheet workflows. | Starting at ~$10,000 / year | No free tier; No free trial (0 days limit, guided demo on request) |
+| **[Cube](https://www.cubesoftware.com/)** | Spreadsheet-native FP&A platform focused on consolidating data, enabling scenario analysis, and keeping finance teams in Excel/Google Sheets while adding control. | Starting at $1,250 / month (~$15,000 / year) | No free tier; No free trial (0 days limit, sales demo on request) |
+| **[Datarails](https://www.datarails.com/)** | Excel-based FP&A and reporting solution that automates data collection and supports scenario and variance analysis for finance teams. | Starting at ~$20,000 / year | No free tier; No standard free trial (0 days limit, custom proof-of-concept upon demo) |
+| **[Abacum](https://www.abacum.io/)** | FP&A platform tailored to SaaS and high-growth companies, emphasizing metrics, board reporting, and agile planning. | Starting at ~$15,000 / year (~$1,250 / month) | No free tier; 7-day limited evaluation trial / sales-led demo |
+| **[Mosaic](https://www.mosaic.tech/)** | Strategic finance and FP&A platform built for SaaS companies to automate modeling, real-time analytics, and forecasting. | Starting at $2,000 / month (~$24,000 / year) | No free tier; No standard free trial (0 days limit, product demo on request) |
+| **[Prophix](https://www.prophix.com/)** | Corporate performance management and budgeting/forecasting platform serving mid-market organizations with structured planning and automation. | Starting at ~$50,000 / year | No free tier; No hands-on free trial (0 days limit, self-guided interactive online demo) |
+| **[Centage](https://www.centage.com/)** | Automated budgeting, forecasting, and financial reporting platform (Planning Maestro) tailored for SMBs and mid-market finance teams. | Starting at $1,750 / month (Core plan, billed annually) | No free tier; No free trial (0 days limit, live demo on request) |
+| **[Workday Adaptive Planning](https://www.workday.com/en-us/products/financial-management/adaptive-planning.html)** | Enterprise connected planning tool for financial, workforce, and operational modeling and what-if scenario analysis. | Starting at ~$22,000 / year | No free tier; 30-day free trial (Full-access trial upon request) |
+| **[OneStream](https://www.onestream.com/)** | Enterprise corporate performance management platform consolidating financial reporting, budgeting, forecasting, and multi-scenario modeling. | Starting at ~$50,000 / year | No free tier; No free trial (0 days limit, executive demo on request) |
 
 
 
